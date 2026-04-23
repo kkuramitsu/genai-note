@@ -27,8 +27,8 @@
 ## プログラミング入門(A/B): 講義ノート
 
 1. [生成AIによるプログラミング](ai-programming/01getstarted.md)
-<!--
 2. [GitHub で作品を公開する](02github.md)
+<!--
 3. [生成AIの限界を知る](03ideathon.md)
 4. [HTML・CSS・JavaScriptの役割](04html.md)
 5. [関数](05function.md)
