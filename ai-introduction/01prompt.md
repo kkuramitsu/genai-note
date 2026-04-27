@@ -28,7 +28,7 @@
 
 開発元は**OpenAI**（アメリカ、2015年設立）。2022年11月の公開直後に世界中で話題となり、「生成AI」という言葉を一般に広めた立役者です。Microsoft が巨額出資しており、Windows や Office の Copilot にも同系統の技術が使われています。
 
-![](../images/ai/chapgpt4-fs8.png)
+![](./figs/chapgpt4-fs8.png)
 *おなじみのちゃっぴー(少し前のバージョン)*
 
 https://chatgpt.com
@@ -39,7 +39,7 @@ https://chatgpt.com
 
 開発元は**Google DeepMind**（Google の AI 研究部門）。2023年に Bard として公開され、2024年に Gemini へ改称されました。検索エンジン世界最大手 Google の技術と検索インフラが背景にあります。
 
-![](../images/ai/gemini2-fs8.png)
+![](./figs/gemini2-fs8.png)
 *Gemini(少し前のバージョン)*
 
 https://gemini.google.com/
@@ -50,7 +50,7 @@ Gmail・Googleドキュメント・YouTube など Google サービスとの連�
 
 開発元は**xAI**（Elon Musk が2023年に設立）。X（旧 Twitter）と同じ運営陣で、X のリアルタイム投稿データを学習・参照に使えるのが最大の特徴です。
 
-![](../images/ai/grok3-fs8.png)
+![](./figs/grok3-fs8.png)
 *Grok(少し前のバージョン)*
 
 https://grok.com/
@@ -61,7 +61,7 @@ https://grok.com/
 
 開発元は**Anthropic**（アメリカ、2021年設立）。創業者の Dario Amodei・Daniela Amodei 兄妹は元 OpenAI の研究責任者で、**AIの安全性（AI Safety）**を前面に掲げて会社を立ち上げました。Google と Amazon が大規模に出資しています。
 
-![](../images/ai/claude3-fs8.png)
+![](./figs/claude3-fs8.png)
 *Claude(少し前のバージョン)*
 
 https://claude.ai/
@@ -85,7 +85,7 @@ https://claude.ai/
 
 トークンとは、AIがテキストを処理するときの最小単位で、単語よりも細かく文章を切り出したものです。
 
-![](../images/ai/openai_tokenizer-fs8.png)
+![](./figs/openai_tokenizer-fs8.png)
 *[OpenAI Tokenizer](https://platform.openai.com/tokenizer):チャッピーのトークンが確認できる*
 
 ```
@@ -114,7 +114,7 @@ https://project.nikkeibp.co.jp/bpi/atcl/column/19/040300720/
 
 同じ質問でも、プロンプトの書き方次第で回答は劇的に変わります。
 
-![](../images/ai/prompt-fs8.png)
+![](./figs/prompt-fs8.png)
 
 ### 役割を与える
 
@@ -124,18 +124,22 @@ https://project.nikkeibp.co.jp/bpi/atcl/column/19/040300720/
 
 #### プロンプト A
 
-![AIの社会課題を教えてください](../images/callout/prompt.svg)
+```
+AIの社会課題を教えてください
+```
 
 #### プロンプト B
 
-![あなたは高校の先生です。AIの社会課題を教えてください](../images/callout/prompt.svg)
+```
+あなたは高校の先生です。AIの社会課題を教えてください
+```
 
 
 回答はどう変わりましたか？
 
 生成AIは「あなたは〇〇です」という形で**役割（ロール）を与える**と、その立場に即した回答をしてくれます。
 
-![](../images/ai/prompt_role-fs8.png)
+![](./figs/prompt_role-fs8.png)
 
 | 役割の例 | 用途 |
 |---------|------|
@@ -170,7 +174,7 @@ https://project.nikkeibp.co.jp/bpi/atcl/column/19/040300720/
 
 クラス共有の Google ドキュメントに書き込んでください。
 
-![](../images/ai/googledoc_prompts-fs8.png)
+![](./figs/googledoc_prompts-fs8.png)
 *URLは授業内限定で提示します*
 
 > [!NOTE]
@@ -181,14 +185,12 @@ https://project.nikkeibp.co.jp/bpi/atcl/column/19/040300720/
 
 ### ペルソナとは
 
-**ペルソナ（Persona）**とは、架空の人物像を具体的に設定したものです。名前・年齢・専攻・性格・生活習慣・口癖など、その人らしさを決める情報を組み合わせて作ります。
+**ペルソナ（Persona）** とは、架空の人物像を具体的に設定したものです。名前・年齢・専攻・性格・生活習慣・口癖など、その人らしさを決める情報を組み合わせて作ります。
 
-![](../images/ai/persona-fs8.png)
+![](./figs/persona-fs8.png)
 *ペルソナの例(講義スライドより)*
 
 もともとはデザインや製品開発の分野で「ターゲットユーザーを具体的にイメージするための手法」として使われてきました。生成AIにペルソナを与えると、その人物として会話してくれます。
-
-**ペルソナは個人情報の代わりになります。** 自分自身の名前・学籍番号・住所を入力する必要はありません。「自分に似た架空の人物」を設定することで、プライバシーを守りながら生成AIを活用できます。
 
 > [!WARNING]
 > ### 注意：個人情報を入力しない
@@ -258,7 +260,7 @@ AIの回答を読んで、ペルソナとして設定した人物らしいかど
 
 生成AIは「知らない」と言うより、それらしい回答を作り上げてしまう傾向があります。
 
-![](../images/ai/snowman-fs8.png)
+![](./figs/snowman-fs8.png)
 *どこが間違っているかわかりますか？*
 
 > [!WARNING]
@@ -293,11 +295,14 @@ AIの回答を読んで、ペルソナとして設定した人物らしいかど
 
 また、モデルの学習目標は「次の単語を正確に予測する」ことであり、「事実を正確に記憶する」ことではありません。様々な改善手法が研究されていますが、この根本的な生成の仕組みが変わらない以上、ハルシネーションをゼロにはできません。
 
+> [!note]
 > **重要な前提**：生成AIを使う人は全員、「この回答は間違っているかもしれない」という前提を持ち続ける必要があります。これは特定のサービスが優れていないからではなく、現在の技術の構造上避けられないことです。
 
 ### ハルシネーションが引き起こす社会問題
 
 ハルシネーションは単なる「AIの間違い」ではなく、現実の社会に被害を与えうる問題です。
+
+![](./figs/halucase-fs8.png)
 
 | リスク領域 | 具体例 | 影響の深刻度 |
 |-----------|--------|-------------|

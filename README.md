@@ -9,8 +9,8 @@
 ## AI入門(A/B): 講義ノート
 
 1. [生成AIを使ってみる](ai-introduction/01prompt.md)
+2. [生成AIの仕組みと文脈](ai-introduction/02context.md)
 <!--
-2. [生成AIの仕組みと文脈](02context.md)
 3. [生成AIと調査活動](03survey.md)
 4. [生成AIと推論：AIは考えているのか](04thinking.md)
 5. [生成AIと評価](05eval.md)
